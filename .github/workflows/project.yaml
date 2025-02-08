@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'project/**'  # Trigger on changes in project folder
+      - '.github/workflows/project.yaml'  # Trigger on changes to this workflow file
 
 jobs:
   build:

@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'log-output/**'  # Trigger on changes in log-output folder
+      - '.github/workflows/log-output.yaml'  # Trigger on changes to this workflow file
 
 jobs:
   build:
