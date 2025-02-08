@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: hashgenerator
-          image: mohamednabil404/log-output:${{ github.sha }}
+          image: mohamednabil404/log-output:acf5a03acd22e59d89864409e41e03ae1c40bd33
