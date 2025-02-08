@@ -25,4 +25,5 @@ jobs:
         with:
           context: ./project
           push: true
-          tags: mohamednabil404/project:latest
+          tags: mohamednabil404/project:${{ github.sha }}  # Use commit SHA as tag
+

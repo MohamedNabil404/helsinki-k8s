@@ -25,4 +25,4 @@ jobs:
         with:
           context: ./log-output
           push: true
-          tags: mohamednabil404/log-output:latest
+          tags: mohamednabil404/log-output:${{ github.sha }}  # Use commit SHA as tag
