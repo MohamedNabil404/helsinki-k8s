@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: project
-          image: mohamednabil404/project:latest
+          image: mohamednabil404/project:06ee84cf36ae16c7f0be60a49ec37b861b173e9f
